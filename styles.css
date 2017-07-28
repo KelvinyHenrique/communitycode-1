@@ -1,0 +1,61 @@
+body{
+    background: url("../images/site_foto13.jpg") no-repeat;
+    background-size: cover;
+    font:14px Arial;
+    display: block;
+}
+#shadow{
+    background: rgba(11, 55, 131, 0.4);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#topbox{
+    background-color: #4c4c4c;
+    border-bottom:1px solid #3d3d3d;
+    padding: 5px 5px;
+    height: 45px;
+}
+#topboxwhite{
+    background: #ffffff;
+    text-align: center;
+    padding: 25px 5px;
+}
+.left{float: left;} .right{float: right;}
+#btn a{color: #ffffff;}
+li img{
+    width: 190px;
+    height: 190px;
+}
+.container .body .row{
+    display: block;
+}
+.container .body h1#text{
+    margin-top: 180px;
+    color: #ffffff;
+    text-shadow: 5px 2px 5px #000000;
+}
+.container .body .row div{
+    padding: 2px 2px;
+    margin: 5px 0px;
+}
+.container .body .row img{
+    height: 230px;
+}
+.container .body .row .col-md-3:hover #caption{
+    opacity: 1;
+}
+.container .body #caption{
+    background: rgba(3,178,200,0.65);
+    color: #ffffff;
+    opacity: 0;
+    height: 230px;
+    margin-top: -230px;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s ease-out;
+}
+.container .body .row a{
+    text-decoration: none;
+}
