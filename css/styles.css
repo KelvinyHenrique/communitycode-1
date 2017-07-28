@@ -55,7 +55,6 @@ li img{
     position: relative;
     text-align: center;
     transition: all 0.2s ease-out;
-    width: .img-responsive;
 }
 .container .body .row a{
     text-decoration: none;
