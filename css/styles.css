@@ -1,8 +1,9 @@
 body{
-    background: url("../images/site_foto13.jpg") no-repeat;
+    background: #ffffff;
     background-size: cover;
     font:14px Arial;
     display: block;
+    background-position: 5% 5%;
 }
 #shadow{
     background: rgba(11, 55, 131, 0.4);
@@ -28,26 +29,41 @@ li img{
     width: 190px;
     height: 190px;
 }
-.container .body .row{
-    display: block;
-}
+
 .container .body h1#text{
-    margin-top: 180px;
     color: #ffffff;
     text-shadow: 5px 2px 5px #000000;
 }
-.container .body .row div{
+.body #apresetation{
+  background: url("../images/69909108-amazing-wallpapers.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: sticky;
+}
+.body #apresetation .container #des{
+  text-align: center;
+  color: #ffffff;
+  margin-top: 18%;
+  text-shadow: 5px 1px 5px #000000;
+}
+.body #apresetation .container #description{
+  width: 400px;
+  margin: 0 auto;
+}
+.body #projects .row div{
     padding: 2px 2px;
     margin: 5px 0px;
 }
-.container .body .row img{
+.body #projects .row img{
     height: 230px;
+    border:1px solid #A2AEBB;
 }
-.container .body .row .col-md-3:hover #caption{
+.body #projects .row .col-md-3:hover #caption{
     opacity: 1;
 }
-.container .body #caption{
-    background: rgba(3,178,200,0.65);
+.body #projects #caption{
+    background: rgba(21, 25, 28, 0.4);
     color: #ffffff;
     opacity: 0;
     height: 230px;
@@ -56,6 +72,6 @@ li img{
     text-align: center;
     transition: all 0.2s ease-out;
 }
-.container .body .row a{
+.body #projects .row a{
     text-decoration: none;
 }
