@@ -1,0 +1,97 @@
+body{
+    background: #ffffff;
+    background-size: cover;
+    font:14px Arial;
+    display: block;
+    background-position: 5% 5%;
+}
+#shadow{
+    background: rgba(11, 55, 131, 0.4);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position:sticky;
+}
+#topbox{
+    background-color: #4c4c4c;
+    border-bottom:1px solid #3d3d3d;
+    padding: 5px 5px;
+    height: 45px;
+}
+#topboxwhite{
+    background: #ffffff;
+    text-align: center;
+    padding: 25px 5px;
+}
+.left{float: left;} .right{float: right;}
+#btn a{color: #ffffff;}
+li img{
+    width: 190px;
+    height: 190px;
+}
+
+.container .body h1#text{
+    color: #ffffff;
+    text-shadow: 5px 2px 5px #000000;
+}
+.body #apresetation{
+  background: url("../images/69909108-amazing-wallpapers.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: sticky;
+}
+.body #apresetation .container #des{
+  text-align: center;
+  color: #ffffff;
+  margin-top: 18%;
+  text-shadow: 5px 1px 5px #000000;
+}
+.body #apresetation .container #description{
+  width: 400px;
+  margin: 0 auto;
+}
+.body #projects .row div{
+    padding: 2px 2px;
+    margin: 5px 0px;
+}
+.body #projects .row img{
+    height: 230px;
+    border:1px solid #A2AEBB;
+}
+.body #projects .row .col-md-3:hover #caption{
+    opacity: 1;
+}
+.body #projects #caption{
+    background: rgba(21, 25, 28, 0.4);
+    color: #ffffff;
+    opacity: 0;
+    height: 230px;
+    margin-top: -230px;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s ease-out;
+}
+.body #projects .row a{
+    text-decoration: none;
+}
+.body #patners{
+  background: url("../images/veranstaltungskonzept-ideenfindung-meeting.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  color: #ffffff;
+  margin-top: 15px;
+  text-align: center;
+  text-shadow: 5px 1px 5px #000000;
+}
+.body #patners .container ul li{
+  display:inline-block;
+  position: sticky;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.body #patners .container img{
+  width: 150px;
+  height: 70px;
+}
