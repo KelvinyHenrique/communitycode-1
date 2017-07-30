@@ -10,7 +10,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 100%;
-    position: absolute;
+    position:sticky;
 }
 #topbox{
     background-color: #4c4c4c;
@@ -74,4 +74,24 @@ li img{
 }
 .body #projects .row a{
     text-decoration: none;
+}
+.body #patners{
+  background: url("../images/veranstaltungskonzept-ideenfindung-meeting.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  color: #ffffff;
+  margin-top: 15px;
+  text-align: center;
+  text-shadow: 5px 1px 5px #000000;
+}
+.body #patners .container ul li{
+  display:inline-block;
+  position: sticky;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.body #patners .container img{
+  width: 150px;
+  height: 70px;
 }
